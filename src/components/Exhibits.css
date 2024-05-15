@@ -1,0 +1,166 @@
+body{
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari) */
+.slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+ .slider {
+    scrollbar-width: none;
+  }
+  
+
+.read-btn {
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.read-btn:hover{
+    transform: scale(1.10);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+  
+.des{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #394040;
+}
+
+.card-div{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.card-div:hover{
+    transform: scale(1.10);
+    transition: transform 0.3s ease;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.main-div{
+    margin-top: 80px;
+    display: flex;
+}
+
+.h-text{
+    margin-top: 65px;
+    margin-right:40px;
+}
+
+.slider{
+    display: flex;
+  width: 52%; /* w-full */
+  height: 100%; /* h-full */
+  overflow-x: scroll; /* overflow-x-scroll */
+  overflow-y: hidden; /* Not directly translatable */
+  white-space: nowrap; /* whitespace-nowrap */
+  scroll-behavior: smooth;
+}
+
+.btn{
+  opacity: 0.5; /* Initial opacity */
+  cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.modal-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 9999;
+    transition: height 0.3s ease; /* Adjust the transition duration as needed */
+  }
+  
+  .modal-overlay.open {
+    height: 100%;
+  }
+  .modal-content {
+    height: 97vh;
+    margin-right: 40px;
+  }
+  .close-button {
+    margin-top: 40px;
+    margin-left: 90vw;
+    top: 10px; /* Adjust distance from top */
+    left: 10px; /* Adjust distance from left */
+    background-color: transparent;
+    border: none;
+    color: white; /* Adjust color */
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .close-button:hover {
+
+  }
+
+  .h2-text{
+    color: white;
+  }
+
+  .p-text{
+    margin-left: 100px;
+    margin-right: 100px;
+    color:white;
+  }
+  .gallery{
+    margin-top: 70px;
+  }
+  .i1:hover{
+    cursor: pointer;
+    transform: scale(1.50);
+    transition: transform 0.5s ease;
+  }
+  .i2:hover{
+    cursor: pointer;
+    transform: scale(1.50);
+    transition: transform 0.5s ease;
+  }
+  .i3:hover{
+    cursor: pointer;
+    transform: scale(1.50);
+    transition: transform 0.5s ease;
+  }
+  .i4:hover{
+    cursor: pointer;
+    transform: scale(1.50);
+    transition: transform 0.5s ease;
+  }
+  .i5:hover{
+    cursor: pointer;
+    transform: scale(1.50);
+    transition: transform 0.5s ease;
+  }
+  .i6:hover{
+    cursor: pointer;
+    transform: scale(1.50);
+    transition: transform 0.5s ease;
+  }

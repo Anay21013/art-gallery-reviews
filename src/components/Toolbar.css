@@ -1,0 +1,64 @@
+.toolbar {
+    position: relative;
+  }
+  
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially set to 0 */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 9999;
+    transition: width 0.5s ease; /* Add transition for width property */
+  }
+  
+  .menu-open {
+    width: 100%; /* Set to full width when menu is open */
+  }
+
+  .menu-content {
+    
+  }
+  
+  .additional-menu-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    color: white;
+  }
+
+  .exp-btn{
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  .exp-btn:hover{
+    color: #b7bbbb;
+    cursor: pointer;
+  }
+
+
+  .close-button {
+    margin-top: 40px;
+    margin-left: 90vw;
+    top: 10px; /* Adjust distance from top */
+    left: 10px; /* Adjust distance from left */
+    background-color: transparent;
+    border: none;
+    color: white; /* Adjust color */
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .menu-button{
+    font-size: medium;
+    margin-right: 100vw;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+  }
+  .menu-button:hover{
+    cursor: pointer;
+  }
